@@ -1,0 +1,51 @@
+
+		body {background-color: lightgrey}
+		#hovedboks {
+			height: 800px; 
+			width: 100%;
+		}
+		#banner {
+			height: 190px;
+			width: 1422px;
+			background-image: url(hiking.jpg);
+			border: 1px black solid;
+		}
+		#meny {
+			height: 60px;
+			width: 100%;
+		}
+		.knapp {
+			height: 60px;
+			width: 25%;
+			border: 1px black solid;
+			float: left;
+		}
+		.knapp:hover {
+			background-color: gray;
+		}
+		#storboks {
+			height: 285px;
+			width: 1422px;
+		}
+		.litenboks {
+			height: 246px;
+			width: 472.6px;
+			border: 1px black solid;
+			float: left;
+			background-size: 100%;
+			text-align: center;
+			font-size: 30px;
+			color: black;
+		}
+		.litenboks:hover {
+			opacity: 0.7;
+		}
+		#litenboks1 {
+			background-image: url(trail1.jpg);
+		}
+		#litenboks2 {
+			background-image: url(trail2.jpg);
+		}
+		#litenboks3 {
+			background-image: url(trail3.jpg);
+		}
